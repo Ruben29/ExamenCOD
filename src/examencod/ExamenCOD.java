@@ -7,20 +7,20 @@ public class ExamenCOD {
      */
     public static void main(String[] args) {
         int inicio = 11;
-        if (metodoMio(inicio)) {
+        if (metodoRuben(inicio)) {
             System.out.println("Es numero primo");
         } else {
             System.out.println("NO es numero primo");
         }
 
         for (int var2 = 2; var2 < 1000; var2++) {
-            if (metodoMio(var2)) {
+            if (metodoRuben(var2)) {
                 System.out.print(var2 + " ");
             }
         }
     }
 
-    public static boolean metodoMio(int var3) {
+    public static boolean metodoRuben(int var3) {
         int varMet = 2;
         boolean auxMet = true;
         while ((auxMet) && (varMet != var3)) {
