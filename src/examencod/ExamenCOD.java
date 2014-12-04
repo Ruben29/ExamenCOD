@@ -20,11 +20,11 @@ public class ExamenCOD {
         }
     }
 
-    public static boolean metodoMio(int variable) {
+    public static boolean metodoMio(int var3) {
         int varMet = 2;
         boolean auxMet = true;
-        while ((auxMet) && (varMet != variable)) {
-            if (variable % varMet == 0) {
+        while ((auxMet) && (varMet != var3)) {
+            if (var3 % varMet == 0) {
                 auxMet = false;
             }
             varMet++;
